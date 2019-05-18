@@ -7,9 +7,9 @@ import { bindActionCreators } from 'redux';
 import { TOKEN_MAPBOX } from 'react-native-dotenv';
 
 import styles from './styles';
-import ModalMap from '~/components/Modal';
+import ModalMap from '../../components/Modal';
 
-import { Creators as userActions } from '~/store/ducks/user';
+import { Creators as userActions } from '../../store/ducks/user';
 
 MapboxGL.setAccessToken(TOKEN_MAPBOX);
 

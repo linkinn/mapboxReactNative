@@ -5,7 +5,7 @@ import {
 import { connect } from 'react-redux';
 import { bindActionCreators } from 'redux';
 
-import { Creators as userActions } from '~/store/ducks/user';
+import { Creators as userActions } from '../../store/ducks/user';
 
 import styles from './styles';
 
